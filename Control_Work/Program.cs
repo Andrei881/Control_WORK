@@ -12,7 +12,6 @@ void SAr(string[] ar, string[] ar2)
         }
     }
 }
-}
 void PAr(string[] ar)
 {
     for (int i = 0; i < ar.Length; i++)
@@ -21,3 +20,5 @@ void PAr(string[] ar)
     }
     Console.WriteLine();
 }
+SAr(ar, ar2);
+PAr(ar2);
