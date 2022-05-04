@@ -12,3 +12,12 @@ void SAr(string[] ar, string[] ar2)
         }
     }
 }
+}
+void PAr(string[] ar)
+{
+    for (int i = 0; i < ar.Length; i++)
+    {
+        Console.Write($"{ar2[i]} ");
+    }
+    Console.WriteLine();
+}
